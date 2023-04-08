@@ -1,0 +1,136 @@
+/* Reset Css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font */ 
+body {
+font-family: Arial, sans-serif;
+line-height: 1.6;
+font-size: 16px;
+color: black;
+}
+
+/* Header */
+header {
+    background-color: rgb(30, 56, 56);
+    padding: 20px;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 60px;
+    margin-right: 10px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li::after {
+    color: aqua;
+    content: '';
+    height: 3px;
+    width: 0;
+    background: aqua;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+/* Hero */
+
+
+
+
+/* Services */
+
+.service {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.button1 {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+}
+
+.button1:hover {
+    transition: 0.5s;
+    background-image: url(matrix.gif);
+    
+}
+
+
+.button2 {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+}
+
+.button2:hover {
+    transition: 0.5s;
+    background-image: url(matrix.gif);
+    
+}
+
+
+
+.button3 {
+    width: 200px;
+    height: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    background: transparent;
+}
+.button3:hover {
+    transition: 0.5s;
+    background-image: url(matrix.gif);
+    
+}
+
+.button4 {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+}
+.button4:hover {
+    transition: 0.5s;
+    background-image: url(matrix.gif);
+    
+}
